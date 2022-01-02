@@ -68,7 +68,7 @@ function sxaven(kiu)
 	teksto = teksto.replace(/ŭ/g,"𐑘");
 
 	document.getElementById(kiu).value=teksto;
-	kiom();
+
 }
 
 
@@ -110,5 +110,4 @@ function espen(kiu)
 	teksto = teksto.replace(/𐑟/g,"z");
 
 	document.getElementById(kiu).value=teksto;
-	kiom();
 }
